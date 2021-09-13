@@ -5,6 +5,7 @@ describe('index.js', function () {
     });
   });
 
+//code reset the array to its original contents before each test is run
   describe('Array functions', function () {
     beforeEach(function () {
       cats.length = 0;
